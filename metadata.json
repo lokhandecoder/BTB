@@ -1,0 +1,6 @@
+{
+  "name": "Bob The Baker's Cafe",
+  "description": "Bob The Baker's Cafe - Sizzling burgers, cheesy pizzas, grilled sandwiches, thick shakes, waffles & hot beverages with WhatsApp order confirmation and table booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

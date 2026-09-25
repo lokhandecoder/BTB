@@ -1,0 +1,1885 @@
+{
+  "settings": {
+    "name": "Bob The Baker's Cafe",
+    "shortName": "BTB Cafe",
+    "tagline": "Fresh Bakes · Sizzling Burgers & Pizzas · Thick Shakes & Chai",
+    "ownerWhatsAppPhone": "919987753904",
+    "displayPhone": "+91 9987753904",
+    "address": "Shop No 24 , plot no :29, Silver Crest, Sector-25, Kamothe, Panvel, Maharashtra 410206",
+    "city": "Kamothe, Panvel, Navi Mumbai, Maharashtra 410206",
+    "gmapUrl": "https://maps.app.goo.gl/UUTh3TaDhFL6Mm658",
+    "hours": {
+      "weekdays": "11:00 AM – 11:00 PM",
+      "weekends": "11:00 AM – 11:00 PM"
+    },
+    "currencySymbol": "₹",
+    "currencyCode": "INR",
+    "taxRatePercent": 0,
+    "announcement": "🔥 Hot Pizzas, Juicy Burgers & Thick Shakes · Dine-In & Takeaway via WhatsApp!"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "Full Menu",
+      "icon": "Utensils"
+    },
+    {
+      "id": "burger",
+      "label": "Burgers",
+      "icon": "Sandwich"
+    },
+    {
+      "id": "pizza",
+      "label": "Pizzas",
+      "icon": "Pizza"
+    },
+    {
+      "id": "sandwich",
+      "label": "Sandwiches",
+      "icon": "Layers"
+    },
+    {
+      "id": "pasta",
+      "label": "Pastas",
+      "icon": "Soup"
+    },
+    {
+      "id": "wrap",
+      "label": "Wraps & Rolls",
+      "icon": "Wrap"
+    },
+    {
+      "id": "maggi",
+      "label": "Maggi Corner",
+      "icon": "Bowl"
+    },
+    {
+      "id": "fries-bread",
+      "label": "Fries & Garlic Bread",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "sides",
+      "label": "Sides & Momos",
+      "icon": "Package"
+    },
+    {
+      "id": "shakes-coffee",
+      "label": "Shakes & Frappes",
+      "icon": "Coffee"
+    },
+    {
+      "id": "hot-beverages",
+      "label": "Chai & Hot Coffee",
+      "icon": "CupSoda"
+    },
+    {
+      "id": "mocktails",
+      "label": "Mocktails & Coolers",
+      "icon": "Wine"
+    },
+    {
+      "id": "waffles-pancakes",
+      "label": "Waffles & Pancakes",
+      "icon": "Cake"
+    },
+    {
+      "id": "breakfast",
+      "label": "Eggitarian Breakfast",
+      "icon": "Egg"
+    },
+    {
+      "id": "seafood",
+      "label": "Sea Food Specials",
+      "icon": "Fish"
+    }
+  ],
+  "items": [
+    {
+      "id": "snd-01",
+      "name": "Bread Butter",
+      "category": "sandwich",
+      "price": 50,
+      "isVeg": true,
+      "description": "Fresh white or brown bread generously layered with salted Amul butter.",
+      "imageUrl": "https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "snd-02",
+      "name": "Bread Cheese Grilled",
+      "category": "sandwich",
+      "price": 70,
+      "isVeg": true,
+      "description": "Golden grilled sandwich loaded with gooey melted cheese and special herbs.",
+      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "extras": [
+          {
+            "name": "Extra Cheese Slice",
+            "priceDelta": 20
+          },
+          {
+            "name": "Spicy Green Chutney",
+            "priceDelta": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "snd-03",
+      "name": "Chutney Cheese Grilled",
+      "category": "sandwich",
+      "price": 89,
+      "isVeg": true,
+      "description": "Bombay style spiced mint coriander chutney spread with melted Amul cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "snd-04",
+      "name": "Veggie Cheese Grilled",
+      "category": "sandwich",
+      "price": 119,
+      "isVeg": true,
+      "description": "Crisp capsicum, onion, tomato, and sweet corn with mozzarella, grilled till crispy.",
+      "imageUrl": "https://images.unsplash.com/photo-1554433607-66b5efe9d304?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "snd-05",
+      "name": "Spinach Corn Crunchy",
+      "category": "sandwich",
+      "price": 139,
+      "isVeg": true,
+      "description": "Creamy spinach and golden corn filling with crunchy toast and garlic herb seasoning.",
+      "imageUrl": "https://images.unsplash.com/photo-1528736235302-52922df5c122?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "snd-06",
+      "name": "Veg Club Sandwich",
+      "category": "sandwich",
+      "price": 179,
+      "isVeg": true,
+      "description": "Triple-decker sandwich with spiced potato, cheese, fresh greens, and house mayo.",
+      "imageUrl": "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "snd-07",
+      "name": "Veg Monstersandwich",
+      "category": "sandwich",
+      "price": 189,
+      "isVeg": true,
+      "description": "Colossal grilled sandwich overflowing with paneer, vegetables, and double molten cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 15
+    },
+    {
+      "id": "snd-08",
+      "name": "Chicken Coleslaw Sandwich",
+      "category": "sandwich",
+      "price": 109,
+      "isVeg": false,
+      "description": "Tender shredded chicken mixed with chilled crunchy coleslaw and mild black pepper.",
+      "imageUrl": "https://images.unsplash.com/photo-1553909489-cd47e0907980?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "snd-09",
+      "name": "Boiled Egg Sandwich",
+      "category": "sandwich",
+      "price": 109,
+      "isVeg": false,
+      "description": "Sliced farm-fresh boiled eggs with butter, black pepper, and mint spread.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 7
+    },
+    {
+      "id": "snd-10",
+      "name": "Half Fry Sandwich",
+      "category": "sandwich",
+      "price": 149,
+      "isVeg": false,
+      "description": "Runny yolk sunny-side egg tucked inside toasted buttered bread with mild spices.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "snd-11",
+      "name": "Chicken Club Sandwich",
+      "category": "sandwich",
+      "price": 199,
+      "isVeg": false,
+      "description": "Three layered toast packed with roasted chicken breast, egg, cheese, and crunchy lettuce.",
+      "imageUrl": "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "snd-12",
+      "name": "Chicken Tikka Sandwich",
+      "category": "sandwich",
+      "price": 199,
+      "isVeg": false,
+      "description": "Char-grilled smoky chicken tikka chunks tossed with tandoori mayo and onions.",
+      "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "snd-13",
+      "name": "Chicken Monstersandwich",
+      "category": "sandwich",
+      "price": 219,
+      "isVeg": false,
+      "description": "Monster sandwich stacked high with chicken keema, tikka, fried egg, and cheese burst.",
+      "imageUrl": "https://images.unsplash.com/photo-1553909489-cd47e0907980?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 15
+    },
+    {
+      "id": "pza-01",
+      "name": "Cheese Pizza",
+      "category": "pizza",
+      "price": 119,
+      "isVeg": true,
+      "description": "Classic Margherita with rich tomato sauce, Italian herbs, and generous mozzarella.",
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12,
+      "customization": {
+        "extras": [
+          {
+            "name": "Extra Cheese Burst",
+            "priceDelta": 40
+          },
+          {
+            "name": "Jalapenos & Olives",
+            "priceDelta": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": "pza-02",
+      "name": "Golden Corn Pizza",
+      "category": "pizza",
+      "price": 129,
+      "isVeg": true,
+      "description": "Sweet golden American corn kernels smothered with golden cheddar and mozzarella.",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pza-03",
+      "name": "Capsicum Pizza",
+      "category": "pizza",
+      "price": 129,
+      "isVeg": true,
+      "description": "Crunchy green bell peppers on a crispy crust with hot pizza sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pza-04",
+      "name": "Tomato Pizza",
+      "category": "pizza",
+      "price": 129,
+      "isVeg": true,
+      "description": "Ripe juicy tomato rounds topped with fresh herbs and molten cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pza-05",
+      "name": "Onion Pizza",
+      "category": "pizza",
+      "price": 129,
+      "isVeg": true,
+      "description": "Caramelized red onion rings baked with savory pizza herbs and stringy cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pza-06",
+      "name": "Veg BBQ Pizza",
+      "category": "pizza",
+      "price": 199,
+      "isVeg": true,
+      "description": "Smoky barbecue glaze, paneer cubes, sweet corn, and caramelized peppers.",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "pza-07",
+      "name": "Veggie Loaded Pizza",
+      "category": "pizza",
+      "price": 249,
+      "isVeg": true,
+      "description": "Loaded with mushrooms, black olives, bell peppers, corn, paneer, and triple cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 15
+    },
+    {
+      "id": "pza-08",
+      "name": "Chicken BBQ Pizza",
+      "category": "pizza",
+      "price": 229,
+      "isVeg": false,
+      "description": "Succulent chicken chunks tossed in hickory BBQ sauce with molten cheese and onions.",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "pza-09",
+      "name": "Chicken Supreme Pizza",
+      "category": "pizza",
+      "price": 289,
+      "isVeg": false,
+      "description": "Ultimate chicken feast with spicy tikka chicken, sausages, peppers, and garlic cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 15
+    },
+    {
+      "id": "brg-01",
+      "name": "Aloo Tikki Burger",
+      "category": "burger",
+      "price": 99,
+      "isVeg": true,
+      "description": "Crispy spiced potato patty, sliced tomato, onions, and signature burger mayo in a toasted sesame bun.",
+      "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "extras": [
+          {
+            "name": "Add Cheese Slice",
+            "priceDelta": 20
+          },
+          {
+            "name": "Add Peri Peri Fries",
+            "priceDelta": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "brg-02",
+      "name": "Veggie Burger",
+      "category": "burger",
+      "price": 119,
+      "isVeg": true,
+      "description": "Crisp mixed garden vegetable patty with tangy cocktail sauce and fresh iceberg lettuce.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "brg-03",
+      "name": "Spicy Paneer Burger",
+      "category": "burger",
+      "price": 149,
+      "isVeg": true,
+      "description": "Crispy marinated paneer patty infused with fiery peri peri spices and creamy mayo.",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "brg-04",
+      "name": "Veggie Supreme",
+      "category": "burger",
+      "price": 179,
+      "isVeg": true,
+      "description": "Double veggie patty layered with melted cheese, gherkins, onions, and secret BTB sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "brg-05",
+      "name": "Paneer Supreme",
+      "category": "burger",
+      "price": 210,
+      "isVeg": true,
+      "description": "Thick batter-fried cottage cheese steak topped with cheese slice, pickled onion, and jalapeños.",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "brg-06",
+      "name": "Veg Magic Burger",
+      "category": "burger",
+      "price": 220,
+      "isVeg": true,
+      "description": "The chef's signature monster burger with loaded patties, cheese burst, and fries inside!",
+      "imageUrl": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "brg-07",
+      "name": "Half Fry Burger",
+      "category": "burger",
+      "price": 139,
+      "isVeg": false,
+      "description": "Sunny-side runny fried egg topped with cracked pepper, cheese slice, and caramelized onion.",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "brg-08",
+      "name": "Chicken Burger",
+      "category": "burger",
+      "price": 179,
+      "isVeg": false,
+      "description": "Juicy crumb-fried chicken patty with crunchy lettuce, tomato, and tandoori herb dressing.",
+      "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "brg-09",
+      "name": "Chicken Supreme Burger",
+      "category": "burger",
+      "price": 240,
+      "isVeg": false,
+      "description": "Crispy fried chicken breast fillet loaded with cheddar cheese, jalapeños, and smoky sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "brg-10",
+      "name": "Non-Veg Magic Burger",
+      "category": "burger",
+      "price": 260,
+      "isVeg": false,
+      "description": "Double chicken patties, crispy bacon-style egg, cheese explosion, and golden fries garnish.",
+      "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "pst-01",
+      "name": "Alfredo Pasta",
+      "category": "pasta",
+      "price": 219,
+      "isVeg": true,
+      "description": "Rich white cheese sauce with garlic, black olives, bell peppers, and fresh Italian herbs.",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pst-02",
+      "name": "Arrabbiata Pasta",
+      "category": "pasta",
+      "price": 219,
+      "isVeg": true,
+      "description": "Spicy tangy red tomato sauce infused with chili flakes, garlic, and fresh basil leaves.",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pst-03",
+      "name": "Pink Panther Pasta",
+      "category": "pasta",
+      "price": 219,
+      "isVeg": true,
+      "description": "The best of both worlds: creamy white sauce blended with zesty red arrabbiata sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pst-04",
+      "name": "Creamy Garlic Pasta",
+      "category": "pasta",
+      "price": 229,
+      "isVeg": true,
+      "description": "Infused with roasted garlic butter, heavy cream, parmesan, and sautéed garden veggies.",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "pst-05",
+      "name": "Chicken Alfredo Pasta",
+      "category": "pasta",
+      "price": 239,
+      "isVeg": false,
+      "description": "Grilled herb chicken chunks tossed in rich and silky white Alfredo cheese sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "pst-06",
+      "name": "Chicken Arrabbiata Pasta",
+      "category": "pasta",
+      "price": 249,
+      "isVeg": false,
+      "description": "Spicy tomato sauce simmered with chicken chunks, chili flakes, and black olives.",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "pst-07",
+      "name": "Chicken Cheese Loaded Pasta",
+      "category": "pasta",
+      "price": 249,
+      "isVeg": false,
+      "description": "Baked pasta blanketed under a thick layer of golden baked mozzarella and chicken.",
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 15
+    },
+    {
+      "id": "pst-08",
+      "name": "Chicken Pink Panther Pasta",
+      "category": "pasta",
+      "price": 259,
+      "isVeg": false,
+      "description": "Luscious blend of red and white sauces tossed with tender spiced chicken breast.",
+      "imageUrl": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "wrp-01",
+      "name": "Manchurian Wrap",
+      "category": "wrap",
+      "price": 149,
+      "isVeg": true,
+      "description": "Crisp veg Manchurian balls tossed in spicy Indo-Chinese dark soy sauce wrapped in paratha.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "wrp-02",
+      "name": "Aloo Wrap",
+      "category": "wrap",
+      "price": 149,
+      "isVeg": true,
+      "description": "Spiced golden potato bites rolled with onions, tangy mint chutney, and chaat masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "wrp-03",
+      "name": "Cheese Corn Wrap",
+      "category": "wrap",
+      "price": 159,
+      "isVeg": true,
+      "description": "Sweet corn sautéed with melted cheese, bell peppers, and creamy chipotle mayo.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "wrp-04",
+      "name": "Paneer Wrap",
+      "category": "wrap",
+      "price": 169,
+      "isVeg": true,
+      "description": "Marinated tandoori paneer cubes with sliced onions, capsicum, and mint yoghurt dressing.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "wrp-05",
+      "name": "Veg Junglee Wrap",
+      "category": "wrap",
+      "price": 199,
+      "isVeg": true,
+      "description": "Wild and fiery roll stuffed with mixed veggies, paneer chunks, cheese, and spicy mayo.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "wrp-06",
+      "name": "Egg Wrap",
+      "category": "wrap",
+      "price": 149,
+      "isVeg": false,
+      "description": "Double egg omelet layered on crisp paratha with sliced onion, chili, and lemon seasoning.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "wrp-07",
+      "name": "Chicken Kebab Wrap",
+      "category": "wrap",
+      "price": 189,
+      "isVeg": false,
+      "description": "Minced chicken seekh kebab rolled with crunchy salad and spicy mint coriander chutney.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "wrp-08",
+      "name": "Chicken Tikka Wrap",
+      "category": "wrap",
+      "price": 219,
+      "isVeg": false,
+      "description": "Smoky charbroiled chicken tikka wrapped with spicy mayo, onion rings, and lime juice.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "wrp-09",
+      "name": "Chicken Junglee Wrap",
+      "category": "wrap",
+      "price": 229,
+      "isVeg": false,
+      "description": "Super loaded roll with spiced chicken shreds, fried egg, cheese burst, and fiery spices.",
+      "imageUrl": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "mag-01",
+      "name": "Regular Maggi",
+      "category": "maggi",
+      "price": 59,
+      "isVeg": true,
+      "description": "The eternal Indian comfort bowl made with classic Tastemaker magic.",
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "mag-02",
+      "name": "Mix Veg Maggi",
+      "category": "maggi",
+      "price": 99,
+      "isVeg": true,
+      "description": "Maggi simmered with diced carrots, green peas, capsicum, onions, and extra spices.",
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "mag-03",
+      "name": "Cheese Maggi",
+      "category": "maggi",
+      "price": 119,
+      "isVeg": true,
+      "description": "Creamy Maggi smothered with freshly grated cheese that melts into every noodle fold.",
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "mag-04",
+      "name": "Peri Peri Maggi",
+      "category": "maggi",
+      "price": 129,
+      "isVeg": true,
+      "description": "Zesty African peri peri spices infused into saucy Maggi noodles with butter.",
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "mag-05",
+      "name": "Chinese Maggi",
+      "category": "maggi",
+      "price": 119,
+      "isVeg": true,
+      "description": "Tossed in spicy chili garlic sauce, dark soy, capsicum, and crunchy spring onions.",
+      "imageUrl": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "fr-01",
+      "name": "Simply Salted Fries",
+      "category": "fries-bread",
+      "price": 99,
+      "isVeg": true,
+      "description": "Golden crispy potato batons sprinkled with sea salt, served with tomato ketchup.",
+      "imageUrl": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "fr-02",
+      "name": "Cheesy Fries",
+      "category": "fries-bread",
+      "price": 119,
+      "isVeg": true,
+      "description": "Crisp french fries drenched in rich velvety cheese sauce and herbs.",
+      "imageUrl": "https://images.unsplash.com/photo-1585109649139-366815a0d713?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 7
+    },
+    {
+      "id": "fr-03",
+      "name": "Peri Peri Fries",
+      "category": "fries-bread",
+      "price": 119,
+      "isVeg": true,
+      "description": "Tossed in fiery and tangy Portuguese peri peri seasoning in a shaker bag.",
+      "imageUrl": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 7
+    },
+    {
+      "id": "fr-04",
+      "name": "Cocktail Loaded Fries",
+      "category": "fries-bread",
+      "price": 149,
+      "isVeg": true,
+      "description": "Loaded with thousand island sauce, cheese drip, chopped jalapenos, and spring onions.",
+      "imageUrl": "https://images.unsplash.com/photo-1585109649139-366815a0d713?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "gb-01",
+      "name": "Cheesy Garlic Bread",
+      "category": "fries-bread",
+      "price": 119,
+      "isVeg": true,
+      "description": "Toasted baguette slices infused with garlic butter and pulled melted mozzarella.",
+      "imageUrl": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "gb-02",
+      "name": "Tandoori Twist Bread",
+      "category": "fries-bread",
+      "price": 139,
+      "isVeg": true,
+      "description": "Garlic bread topped with tandoori spiced onions, capsicum, and molten cheese drizzle.",
+      "imageUrl": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "gb-03",
+      "name": "Garden Garlic Bread",
+      "category": "fries-bread",
+      "price": 149,
+      "isVeg": true,
+      "description": "Topped with sweet corn, olives, bell peppers, garlic butter, and stringy mozzarella.",
+      "imageUrl": "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-01",
+      "name": "Veg Momos (Fried / Steam)",
+      "category": "sides",
+      "price": 119,
+      "isVeg": true,
+      "description": "Juicy vegetable dumplings packed with finely minced cabbage, carrots, and ginger.",
+      "imageUrl": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 10,
+      "customization": {
+        "temperatures": [
+          "Hot"
+        ],
+        "extras": [
+          {
+            "name": "Steamed Style",
+            "priceDelta": 0
+          },
+          {
+            "name": "Deep Fried Style",
+            "priceDelta": 0
+          },
+          {
+            "name": "Extra Spicy Red Chutney",
+            "priceDelta": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-02",
+      "name": "Crispy Corn",
+      "category": "sides",
+      "price": 119,
+      "isVeg": true,
+      "description": "American corn wok-fried till crunchy, spiced with black salt, lemon, and green chilies.",
+      "imageUrl": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-03",
+      "name": "Veggie Finger",
+      "category": "sides",
+      "price": 119,
+      "isVeg": true,
+      "description": "Crisp crumbed vegetable sticks seasoned with aromatic herbs, served with dip.",
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-04",
+      "name": "Onion Rings",
+      "category": "sides",
+      "price": 129,
+      "isVeg": true,
+      "description": "Golden battered Spanish onion rings fried to crunchy perfection.",
+      "imageUrl": "https://images.unsplash.com/photo-1639024471287-035186f55a1b?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-05",
+      "name": "Hara Bhara Kebab",
+      "category": "sides",
+      "price": 129,
+      "isVeg": true,
+      "description": "Nutritious and savory patties made from spinach, green peas, paneer, and cashews.",
+      "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-06",
+      "name": "Cheesy Loaded Nachos",
+      "category": "sides",
+      "price": 149,
+      "isVeg": true,
+      "description": "Crispy corn tortilla chips topped with warm cheese sauce, fresh salsa, and jalapeños.",
+      "imageUrl": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 7
+    },
+    {
+      "id": "sd-07",
+      "name": "Jalapeno Ball",
+      "category": "sides",
+      "price": 139,
+      "isVeg": true,
+      "description": "Molten cheese croquettes loaded with spicy jalapeño bits inside a crispy crust.",
+      "imageUrl": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-08",
+      "name": "Cheese Corn Burst",
+      "category": "sides",
+      "price": 139,
+      "isVeg": true,
+      "description": "Crispy fried golden bites with an oozy sweet corn and cheese burst interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-09",
+      "name": "Pizza Pocket",
+      "category": "sides",
+      "price": 149,
+      "isVeg": true,
+      "description": "Flaky golden pockets filled with pizza sauce, veggies, and stretchy cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-10",
+      "name": "Veg Mega Platter",
+      "category": "sides",
+      "price": 210,
+      "isVeg": true,
+      "description": "Grand sharing platter with peri peri fries, onion rings, cheese balls, and crispy corn.",
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 12
+    },
+    {
+      "id": "sd-11",
+      "name": "Chicken Momo (Fried / Steam)",
+      "category": "sides",
+      "price": 119,
+      "isVeg": false,
+      "description": "Succulent spiced chicken momos served with fiery Tibetan red chili chutney.",
+      "imageUrl": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 10,
+      "customization": {
+        "extras": [
+          {
+            "name": "Steamed Style",
+            "priceDelta": 0
+          },
+          {
+            "name": "Deep Fried Style",
+            "priceDelta": 0
+          },
+          {
+            "name": "Extra Red Chutney",
+            "priceDelta": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "sd-12",
+      "name": "Crunchy Chicken Nugget",
+      "category": "sides",
+      "price": 139,
+      "isVeg": false,
+      "description": "Tender chicken nuggets fried till crisp golden, served with mustard and ketchup.",
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "sd-13",
+      "name": "Chicken Cheesy Balls",
+      "category": "sides",
+      "price": 149,
+      "isVeg": false,
+      "description": "Spiced minced chicken balls stuffed with gooey mozzarella that melts in your mouth.",
+      "imageUrl": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-14",
+      "name": "Chicken Seekh Kebab",
+      "category": "sides",
+      "price": 159,
+      "isVeg": false,
+      "description": "Char-grilled minced chicken skewer infused with aromatic Indian spices and mint.",
+      "imageUrl": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "sd-15",
+      "name": "Chicken Crispy Popcorn",
+      "category": "sides",
+      "price": 159,
+      "isVeg": false,
+      "description": "Bite-sized tender chicken pieces crunchy-coated and dusted with zesty seasoning.",
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-16",
+      "name": "Chicken Finger",
+      "category": "sides",
+      "price": 159,
+      "isVeg": false,
+      "description": "Strips of premium chicken breast breaded and fried golden, served with spicy mayo.",
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 9
+    },
+    {
+      "id": "sd-17",
+      "name": "Non Veg Mega Platter",
+      "category": "sides",
+      "price": 249,
+      "isVeg": false,
+      "description": "The ultimate party platter with chicken nuggets, chicken popcorn, fingers, and cheesy balls.",
+      "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 14
+    },
+    {
+      "id": "sea-01",
+      "name": "Crab Lollipop",
+      "category": "seafood",
+      "price": 139,
+      "isVeg": false,
+      "description": "Savory seasoned crab claw meat wrapped in crispy golden batter, served on sticks.",
+      "imageUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 10
+    },
+    {
+      "id": "sea-02",
+      "name": "Fish Fries",
+      "category": "seafood",
+      "price": 169,
+      "isVeg": false,
+      "description": "Marinated fish fillets dredged in seasoned crumb and deep-fried till flaky and golden.",
+      "imageUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "sea-03",
+      "name": "Fish Fingers",
+      "category": "seafood",
+      "price": 179,
+      "isVeg": false,
+      "description": "Tender boneless white fish goujons with crispy breading, served with tartare dip.",
+      "imageUrl": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 11
+    },
+    {
+      "id": "shk-01",
+      "name": "Vanilla Shake",
+      "category": "shakes-coffee",
+      "price": 129,
+      "isVeg": true,
+      "description": "Rich creamy milkshake infused with pure Madagascar vanilla extract and whole milk.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-02",
+      "name": "Classic Cold Coffee",
+      "category": "shakes-coffee",
+      "price": 129,
+      "isVeg": true,
+      "description": "Thick blended cold coffee made with rich espresso, chilled milk, and sweet froth.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-03",
+      "name": "Butterscotch Shake",
+      "category": "shakes-coffee",
+      "price": 139,
+      "isVeg": true,
+      "description": "Creamy shake loaded with crunchy butterscotch praline and golden caramel syrup.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-04",
+      "name": "Chocolate Shake",
+      "category": "shakes-coffee",
+      "price": 139,
+      "isVeg": true,
+      "description": "Decadent milkshake made with premium Dutch cocoa and melted chocolate sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-05",
+      "name": "Strawberry Shake",
+      "category": "shakes-coffee",
+      "price": 139,
+      "isVeg": true,
+      "description": "Blended with sweet real strawberry crush and rich ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-06",
+      "name": "Hazelnut Mocha",
+      "category": "shakes-coffee",
+      "price": 149,
+      "isVeg": true,
+      "description": "Iced espresso blended with aromatic roasted hazelnut syrup and chocolate ganache.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-07",
+      "name": "Butterscotch Frappe",
+      "category": "shakes-coffee",
+      "price": 159,
+      "isVeg": true,
+      "description": "Blended iced coffee with butterscotch crunch, crowned with whipped cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-08",
+      "name": "Cold Coffee With Ice Cream",
+      "category": "shakes-coffee",
+      "price": 169,
+      "isVeg": true,
+      "description": "Our signature thick cold coffee topped with a giant scoop of vanilla bean ice cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "shk-09",
+      "name": "KitKat Shake",
+      "category": "shakes-coffee",
+      "price": 169,
+      "isVeg": true,
+      "description": "Thick milkshake blended with real KitKat wafer bars, topped with crispy chocolate bits.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-10",
+      "name": "Oreo Shake",
+      "category": "shakes-coffee",
+      "price": 169,
+      "isVeg": true,
+      "description": "Loaded with chocolate Oreo cookies and vanilla cream, drizzled with dark chocolate sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-11",
+      "name": "Nutella Milkshake",
+      "category": "shakes-coffee",
+      "price": 189,
+      "isVeg": true,
+      "description": "Super decadent shake blended with authentic Italian Nutella hazelnut cocoa spread.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-12",
+      "name": "Chocolate Frappe",
+      "category": "shakes-coffee",
+      "price": 210,
+      "isVeg": true,
+      "description": "Thick blended frappe with double chocolate, coffee roast, and dark chocolate drizzle.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "shk-13",
+      "name": "Biscoff Shake",
+      "category": "shakes-coffee",
+      "price": 219,
+      "isVeg": true,
+      "description": "Lotus Biscoff cookie butter milkshake garnished with caramelized biscuit crumble.",
+      "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "hot-01",
+      "name": "Black Tea",
+      "category": "hot-beverages",
+      "price": 49,
+      "isVeg": true,
+      "description": "Single-estate Assam black tea brewed brisk and golden with fresh lemon slice.",
+      "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "hot-02",
+      "name": "Masala Tea",
+      "category": "hot-beverages",
+      "price": 69,
+      "isVeg": true,
+      "description": "Traditional Indian kadak chai infused with cardamom, clove, cinnamon, and fresh ginger.",
+      "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "hot-03",
+      "name": "Ginger Tea",
+      "category": "hot-beverages",
+      "price": 75,
+      "isVeg": true,
+      "description": "Freshly crushed fiery ginger simmered with rich milk tea for that soothing throat warmth.",
+      "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "hot-04",
+      "name": "Regular Coffee",
+      "category": "hot-beverages",
+      "price": 89,
+      "isVeg": true,
+      "description": "Desi style hot beaten coffee with thick frothy milk and cocoa dusting.",
+      "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "hot-05",
+      "name": "Espresso",
+      "category": "hot-beverages",
+      "price": 95,
+      "isVeg": true,
+      "description": "Concentrated intense shot of pure Arabica roast with a thick golden crema.",
+      "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 3
+    },
+    {
+      "id": "hot-06",
+      "name": "Cappuccino",
+      "category": "hot-beverages",
+      "price": 119,
+      "isVeg": true,
+      "description": "Equal parts espresso, steamed milk, and airy microfoam with dusted chocolate.",
+      "imageUrl": "https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "hot-07",
+      "name": "Americano",
+      "category": "hot-beverages",
+      "price": 119,
+      "isVeg": true,
+      "description": "Double espresso poured over hot water for a rich, aromatic, clean coffee cup.",
+      "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 3
+    },
+    {
+      "id": "hot-08",
+      "name": "Mocha",
+      "category": "hot-beverages",
+      "price": 129,
+      "isVeg": true,
+      "description": "Espresso swirled with hot chocolate fudge and velvety steamed milk.",
+      "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "hot-09",
+      "name": "Hot Chocolate",
+      "category": "hot-beverages",
+      "price": 129,
+      "isVeg": true,
+      "description": "Silky dark chocolate melted into warm milk, topped with chocolate shavings.",
+      "imageUrl": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 5
+    },
+    {
+      "id": "hot-10",
+      "name": "Marshmallow Hot Chocolate",
+      "category": "hot-beverages",
+      "price": 159,
+      "isVeg": true,
+      "description": "Luxurious hot chocolate crowned with fluffy torched mini marshmallows.",
+      "imageUrl": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "mck-01",
+      "name": "Iced Americano",
+      "category": "mocktails",
+      "price": 119,
+      "isVeg": true,
+      "description": "Chilled espresso served over sparkling ice and soft mineral water.",
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 3
+    },
+    {
+      "id": "mck-02",
+      "name": "Blue Lagoon",
+      "category": "mocktails",
+      "price": 119,
+      "isVeg": true,
+      "description": "Vibrant blue curaçao flavor mixed with lemon juice, mint, and fizzy sprite.",
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "mck-03",
+      "name": "Peach Ice Tea",
+      "category": "mocktails",
+      "price": 119,
+      "isVeg": true,
+      "description": "Brewed black tea infused with sweet peach nectar and served over crushed ice.",
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "mck-04",
+      "name": "Masala Lemonade",
+      "category": "mocktails",
+      "price": 119,
+      "isVeg": true,
+      "description": "Shikanji style fresh lemon juice, roasted cumin, black salt, and bubbling soda.",
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "mck-05",
+      "name": "Kala Khatta Mojito",
+      "category": "mocktails",
+      "price": 129,
+      "isVeg": true,
+      "description": "Desi tangy jamun Kala Khatta syrup muddled with mint leaves, lemon, and fizz.",
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "mck-06",
+      "name": "Lemon & Mint Mojito",
+      "category": "mocktails",
+      "price": 129,
+      "isVeg": true,
+      "description": "Classic virgin mojito with crushed fresh spearmint, lime chunks, and cane sugar.",
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "mck-07",
+      "name": "Berry Blast",
+      "category": "mocktails",
+      "price": 139,
+      "isVeg": true,
+      "description": "Muddled blueberries, raspberries, cranberry splash, and chilled sparkling soda.",
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 4
+    },
+    {
+      "id": "brk-01",
+      "name": "Plain Omelet",
+      "category": "breakfast",
+      "price": 69,
+      "isVeg": false,
+      "description": "Two eggs whisked with butter, salt, and mild pepper, cooked fluffy and tender.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "brk-02",
+      "name": "Boiled Egg With Bread",
+      "category": "breakfast",
+      "price": 89,
+      "isVeg": false,
+      "description": "Two whole boiled eggs served with toasted butter bread slices and chaat masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg"
+      ],
+      "preparationTimeMinutes": 6
+    },
+    {
+      "id": "brk-03",
+      "name": "Masala Omelet",
+      "category": "breakfast",
+      "price": 110,
+      "isVeg": false,
+      "description": "Desi street style omelet loaded with chopped onions, tomatoes, green chilies, and coriander.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 7
+    },
+    {
+      "id": "brk-04",
+      "name": "Cheese Omelet",
+      "category": "breakfast",
+      "price": 130,
+      "isVeg": false,
+      "description": "Fluffy folded omelet bursting with melted cheddar and mozzarella cheese.",
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Non-Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 8
+    },
+    {
+      "id": "wfl-01",
+      "name": "Butter & Salted Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 119,
+      "isVeg": true,
+      "description": "Freshly pressed crispy Belgian waffle or fluffy pancake stack topped with melted salted butter.",
+      "imageUrl": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfl-02",
+      "name": "Banana Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 139,
+      "isVeg": true,
+      "description": "Topped with fresh banana slices, golden honey drizzle, and dusted cinnamon sugar.",
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfl-03",
+      "name": "Maple Classic Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 159,
+      "isVeg": true,
+      "description": "Authentic Canadian maple syrup drizzled over crisp hot waffles or light pancakes.",
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfl-04",
+      "name": "Chocolate Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 159,
+      "isVeg": true,
+      "description": "Smothered in warm Belgian milk chocolate sauce and crunchy chocolate chips.",
+      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Bestseller"
+      ],
+      "preparationTimeMinutes": 8,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfl-05",
+      "name": "Nutella Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 189,
+      "isVeg": true,
+      "description": "Generous spread of rich Nutella with roasted crushed hazelnuts.",
+      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 9,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "wfl-06",
+      "name": "Berry Blast Waffle / Pancake",
+      "category": "waffles-pancakes",
+      "price": 199,
+      "isVeg": true,
+      "description": "Loaded with mixed wild berries, sweet berry compote, and whipped cream.",
+      "imageUrl": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop",
+      "dietaryTags": [
+        "Veg",
+        "Chef Special"
+      ],
+      "preparationTimeMinutes": 9,
+      "customization": {
+        "sizes": [
+          {
+            "name": "Belgian Waffle",
+            "priceDelta": 0
+          },
+          {
+            "name": "Pancake Stack (3 pcs)",
+            "priceDelta": 0
+          }
+        ]
+      }
+    }
+  ]
+}
